@@ -1,4 +1,4 @@
-# [项目名称]
+# [base-GPT-Modern-poem]
 
 <div align="center">
 *[项目简短描述 - 基于现代诗的基础GPT]*
