@@ -73,6 +73,20 @@ python data_clean.py
 | `para` | array | 诗歌内容段落数组，每段用 `\n` 分隔 |
 | `author` | string | 作者姓名 |
 
+### datasets准备
+  1，运行train_dataset_one.py(基础)而xx_all.py为强化版本
+  2，生成dataset.bin文件
+```bash
+python train_dataset_one.py
+```
+
+### tokennizer准备
+  1，运行hug_face_tokenizer.py
+  2，生成tokennizer_hug.json文件
+```bash
+python hug_face_tokenizer.py
+```
+
 ### 开始训练
 
 ```bash
@@ -116,9 +130,7 @@ base-ChatGPT/
 │
 └── 📦 模型文件
     ├── 📄 tokenizer_hug.json   # 分词器文件
-    ├── 📄 checkpoint.bin       # 训练检查点
-    ├── 📄 best_model.bin       # 最佳模型
-    └── 📄 final_checkpoint.bin # 最终模型
+    .......
 ```
 
 ## ⚙️ 配置说明
