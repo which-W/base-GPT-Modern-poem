@@ -74,15 +74,15 @@ python data_clean.py
 | `author` | string | 作者姓名 |
 
 ### datasets准备
-  1，运行train_dataset_one.py(基础)而xx_all.py为强化版本
-  2，生成dataset.bin文件
+1，运行train_dataset_one.py(基础)而xx_all.py为强化版本
+2，生成dataset.bin文件
 ```bash
 python train_dataset_one.py
 ```
 
 ### tokennizer准备
-  1，运行hug_face_tokenizer.py
-  2，生成tokennizer_hug.json文件
+1，运行hug_face_tokenizer.py
+2，生成tokennizer_hug.json文件
 ```bash
 python hug_face_tokenizer.py
 ```
