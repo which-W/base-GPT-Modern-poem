@@ -1,13 +1,9 @@
 # [项目名称]
 
 <div align="center">
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org)
-
 *[项目简短描述 - 基于现代诗的基础GPT]*
-
 </div>
 ## 🎯 项目简介
 
