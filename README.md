@@ -6,15 +6,15 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org)
 
-*[项目简短描述 - 可以基于现代诗的基础GPT]*
+*[项目简短描述 - 基于现代诗的基础GPT]*
 
 </div>
 
 ## 📖 目录
 
-- [项目简介](#项目简介)
-- [功能特性](#功能特性)
-- [快速开始](#快速开始)
+- [项目简介](## 项目简介)
+- [功能特性](# 功能特性)
+- [快速开始](# 快速开始)
 - [项目结构](#项目结构)
 - [配置说明](#配置说明)
 - [训练模型](#训练模型)
