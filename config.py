@@ -8,10 +8,10 @@ GPT_FF = 1024
 GPT_BLOCKS = 6
 
 # training - 优化配置以解决loss停滞问题
-TRAIN_ITER=50000   # 增加训练步数用于fine-tune
+TRAIN_ITER=250000   # 增加训练步数用于fine-tune
 BATCH_SIZE=8
-LEARNING_RATE=0.0001  # 降低学习率: 2e-4 -> 5e-5
-WARMUP_STEPS=500    # 添加warmup stabilize训练
+LEARNING_RATE=5e-5  # 降低学习率: 2e-4 -> 5e-5
+WARMUP_STEPS=1000    # 添加warmup stabilize训练
 # inference
 TEMPERATURE=0.7 
 TOP_K=20
