@@ -1,30 +1,10 @@
-# [项目名称]
+# [base-GPT-Modern-poem]
 
 <div align="center">
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org)
-
-*[项目简短描述 - 可以基于现代诗的基础GPT]*
-
+*[项目简短描述 - 基于现代诗的基础GPT]*
 </div>
 
-## 📖 目录
-
-- [项目简介](#项目简介)
-- [功能特性](#功能特性)
-- [快速开始](#快速开始)
-- [项目结构](#项目结构)
-- [配置说明](#配置说明)
-- [训练模型](#训练模型)
-- [模型推理](#模型推理)
-- [依赖安装](#依赖安装)
-- [贡献指南](#贡献指南)
-- [许可证](#许可证)
-
 ## 🎯 项目简介
-
 *[详细介绍你的项目是什么，做什么用，解决什么问题]*
 
 这是一个从头实现的 GPT 语言模型训练框架，支持：
@@ -93,6 +73,20 @@ python data_clean.py
 | `para` | array | 诗歌内容段落数组，每段用 `\n` 分隔 |
 | `author` | string | 作者姓名 |
 
+### datasets准备
+1，运行train_dataset_one.py(基础)而xx_all.py为强化版本
+2，生成dataset.bin文件
+```bash
+python train_dataset_one.py
+```
+
+### tokennizer准备
+1，运行hug_face_tokenizer.py
+2，生成tokennizer_hug.json文件
+```bash
+python hug_face_tokenizer.py
+```
+
 ### 开始训练
 
 ```bash
@@ -136,9 +130,7 @@ base-ChatGPT/
 │
 └── 📦 模型文件
     ├── 📄 tokenizer_hug.json   # 分词器文件
-    ├── 📄 checkpoint.bin       # 训练检查点
-    ├── 📄 best_model.bin       # 最佳模型
-    └── 📄 final_checkpoint.bin # 最终模型
+    .......
 ```
 
 ## ⚙️ 配置说明
