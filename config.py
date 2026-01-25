@@ -13,8 +13,8 @@ BATCH_SIZE=8
 LEARNING_RATE=5e-5  # 降低学习率: 2e-4 -> 5e-5
 WARMUP_STEPS=1000    # 添加warmup stabilize训练
 # inference
-TEMPERATURE=0.7 
-TOP_K=20
+TEMPERATURE=0.4
+TOP_K=10
 REPETITION_PENALTY = 1.4
 # special tokens
 PAD='<|padding|>'

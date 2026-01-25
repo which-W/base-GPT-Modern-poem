@@ -257,7 +257,7 @@ if __name__ == '__main__':
         
         # 梯度更新
         if (i + 1) % accum_steps == 0:
-            #torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
             optimizer.zero_grad()
             scheduler.step()  # 每步更新学习率
